@@ -1,7 +1,7 @@
 defmodule Blog.Blog do
   alias Blog.Blog.Post
 
-  posts_paths = "posts/2018/*.md" |> Path.wildcard() |> Enum.sort()
+  posts_paths = "posts/**/*.md" |> Path.wildcard() |> Enum.sort()
 
   posts =
     for post_path <- posts_paths do
