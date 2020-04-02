@@ -36,6 +36,9 @@ module.exports = (env, options) => ({
   },
   plugins: [
     new MiniCssExtractPlugin({ filename: '../css/app.css' }),
-    new CopyWebpackPlugin([{ from: 'static/', to: '../' }])
+    new CopyWebpackPlugin([
+      { from: 'static/', to: '../' },
+      { from: 'node_modules/startbootstrap-clean-blog/vendor/fontawesome-free/webfonts/', to: '../css/webfonts' }
+    ])
   ]
 });
