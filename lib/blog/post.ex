@@ -23,7 +23,7 @@ defmodule Blog.Blog.Post do
     struct!(__MODULE__, [id: id, date: date] ++ contents)
   end
 
-  defp parse_contents(id, contents) do
+  defp parse_contents(_id, contents) do
     # Split contents into  ["==title==\n", "this title", "==tags==\n", "this, tags", ...]
     parts = Regex.split(~r/^==(\w+)==\n/m, contents, include_captures: true, trim: true)
 
@@ -48,7 +48,7 @@ defmodule Blog.Blog.Post do
     do: String.trim(value)
 
   defp parse_attr(:body, value),
-    do: value
+    do: value |> Earmark.as_html!() |> Blog.Highlighter.highlight_code_blocks()
 
   defp parse_attr(:tags, value),
     do: value |> String.split(",") |> Enum.map(&String.trim/1) |> Enum.sort()

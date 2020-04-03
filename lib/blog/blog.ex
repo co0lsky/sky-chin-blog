@@ -1,6 +1,10 @@
 defmodule Blog.Blog do
   alias Blog.Blog.Post
 
+  for app <- [:earmark, :makeup_elixir] do
+    Application.ensure_all_started(app)
+  end
+
   posts_paths = "posts/**/*.md" |> Path.wildcard() |> Enum.sort()
 
   posts =
@@ -13,5 +17,9 @@ defmodule Blog.Blog do
 
   def list_posts do
     @posts
+  end
+
+  def find_post(id) do
+    Enum.find(@posts, fn post -> Map.get(post, :id) == id end)
   end
 end
