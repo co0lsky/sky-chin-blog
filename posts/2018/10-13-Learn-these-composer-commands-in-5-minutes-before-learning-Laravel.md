@@ -79,14 +79,14 @@ What command would you need when you are starting a new project?
 Firstly, you can use `composer create-project` command to clone project from existing package.
 
 ~~~ powershell
-$ composer create-project <package name> <destination folder> <version>
+$ composer create-project package_name destination_folder version
 ~~~
 
-<package name\> - e.g. laravel/laravel, doctrine/orm
+package_name - e.g. laravel/laravel, doctrine/orm
 
-<destination folder\> - e.g. blog, any folder name
+destination_folder - e.g. blog, any folder name
 
-<version\> - Optional, e.g. 2.2.*
+version - Optional, e.g. 2.2.*
 
 For example, you want to install a fresh new Laravel project in a folder named app.
 
@@ -113,12 +113,12 @@ During the development, you install, update, and remove the installed packages.
 You can install a new package with this command.
 
 ~~~ powershell
-$ composer require <package name>:<version>
+$ composer require package_name:version
 ~~~
 
-<package name\> - e.g. phpunit/phpunit
+package_name - e.g. phpunit/phpunit
 
-<version\> - Optional, e.g. 2.2.*
+version - Optional, e.g. 2.2.*
 
 If you want to update all the packages to the latest version, you can run this command.
 
