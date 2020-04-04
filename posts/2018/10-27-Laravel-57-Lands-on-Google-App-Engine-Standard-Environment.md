@@ -76,7 +76,7 @@ After the installation, run the application.
 $ php artisan serve
 ~~~
 
-![](/assets/images/1_drnJqw8hV2vc6RS_s7i9zQ.png)
+![](/images/1_drnJqw8hV2vc6RS_s7i9zQ.png)
 
 Alright, this is what you are going to deploy to the GAE.
 
@@ -171,7 +171,7 @@ It’s not done yet.
 
 During the exploration, I kept on hitting an error after the deployment.
 
-![](/assets/images/1_ICJP9I8-SP6wwAF8bpdaOQ.png)
+![](/images/1_ICJP9I8-SP6wwAF8bpdaOQ.png)
 
 The error was gone after I stopped the `composer.lock` from the deployment. 
 
@@ -207,7 +207,7 @@ $ gcloud app browse
 
 Tada!
 
-![](/assets/images/1_sdsC5FkpNXAlMEY6O18DAg.png)
+![](/images/1_sdsC5FkpNXAlMEY6O18DAg.png)
 
 Besides, you can watch the application log with this command.
 

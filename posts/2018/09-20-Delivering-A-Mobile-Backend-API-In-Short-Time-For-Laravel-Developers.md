@@ -41,7 +41,7 @@ Draft your API endpoints in document collaboration tools like [Google Docs](http
 
 Here is the example API I drafted.
 
-![Google Docs](/assets/images/1_b1X2BMB64G2l6uNrBqUe-g.png)
+![Google Docs](/images/1_b1X2BMB64G2l6uNrBqUe-g.png)
 
 After you have the first version of the draft ready. You can start the discussion with mobile app developer or client.
 
@@ -69,7 +69,7 @@ Lumen is the lighter version of Laravel which is specifically designed for API d
 
 The first reason I recommend Lumen is easier to learn. Lumen is specifically designed for stateless API, so you don’t need to learn Session, Views and some other 3rd party components.
 
-![](/assets/images/1__JuBhpbwgAzjYbqXJrSslw.png)
+![](/images/1__JuBhpbwgAzjYbqXJrSslw.png)
 
 ## Faster
 
@@ -77,7 +77,7 @@ The second reason is the speed.
 
 Check out this performance comparison done by Laurence (Creator of [Eyewitness.io](http://eyewitness.io/) — A Laravel monitoring application)
 
-![](/assets/images/1_JHY6LbWwKqoEuyAnjOimWQ.png)
+![](/images/1_JHY6LbWwKqoEuyAnjOimWQ.png)
 Source: https://medium.com/@laurencei/lumen-vs-laravel-performance-in-2018-1a9346428c01
 
 Without touching the database, Lumen is 22.82% faster than Laravel (web) and 13.89% faster than Laravel (api).
@@ -92,7 +92,7 @@ Generally, Lumen is 24.19% faster than Laravel (web) and 12.01% faster than Lara
 
 The third reason is you can shift to Laravel easily as application codes are compatible with both frameworks.
 
-![](/assets/images/1_ieeaMYoUYil7uyPTwg1b4w.png)
+![](/images/1_ieeaMYoUYil7uyPTwg1b4w.png)
 Source: https://jason.pureconcepts.net/2017/02/lumen-is-dead-long-live-lumen/#comment-3412664960
 
 When the application grows, you can shift to Laravel anytime to serve the application’s needs.
@@ -105,15 +105,15 @@ Single Action Controller is one controller performs one action only. For example
 
 Here are my single action controllers look like in one of my projects.
 
-![](/assets/images/1_RAkrtO68iqG32ZG1BSiF7Q.png)
+![](/images/1_RAkrtO68iqG32ZG1BSiF7Q.png)
 
 And the other single action controllers in the project.
 
-![](/assets/images/1_Hw8z_gtFlnhEUCg88AVdBQ.png)
+![](/images/1_Hw8z_gtFlnhEUCg88AVdBQ.png)
 
 And, the routes.
 
-![](/assets/images/1_GAo4-3emglNC7FOiMUKP8w.png)
+![](/images/1_GAo4-3emglNC7FOiMUKP8w.png)
 
 What about the shared code? If you have a function which is needed by more than one controllers, you can write a [Trait](http://php.net/manual/en/language.oop5.traits.php).
 

@@ -14,7 +14,7 @@ Sky Chin
 ==body==
 Back to development.
 
-![](/assets/images/52491528_1751003725000852_8532183389404562976_n.jpg)
+![](/images/52491528_1751003725000852_8532183389404562976_n.jpg)
 
 Lately, I was busy with management tasks. This week, I have the chance to contribute to our latest API project.
 

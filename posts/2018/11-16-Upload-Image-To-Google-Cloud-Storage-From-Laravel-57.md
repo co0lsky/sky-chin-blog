@@ -36,7 +36,7 @@ Before you getting started, you need to prepare
 
 GCS provides a free bucket (allow to store up to 5GB) for each GAE application. You can a bucket created with your application domain name under GCS browser.
 
-![](/assets/images/1_MfNPxjRJOp4i19tddi0thw.png)
+![](/images/1_MfNPxjRJOp4i19tddi0thw.png)
 
 # Install GCS in Laravel
 
@@ -204,8 +204,8 @@ After clicking the send button, the endpoint should return the file path and the
 
 Tada!
 
-![](/assets/images/1_YjNM46kMlwpQ8Q974V0a7Q.png)
+![](/images/1_YjNM46kMlwpQ8Q974V0a7Q.png)
 
 You can find the uploaded image file through GCP console.
 
-![](/assets/images/1_mhmGVa4_lV8tNYCFApQaQw.png)
+![](/images/1_mhmGVa4_lV8tNYCFApQaQw.png)

@@ -208,6 +208,6 @@ class CourierA
 }
 ~~~
 
-![](/assets/images/1_MbjpimY8uyFysnLCkuGEaQ.png)
+![](/images/1_MbjpimY8uyFysnLCkuGEaQ.png)
 
 Have fun coding!

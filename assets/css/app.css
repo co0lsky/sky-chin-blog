@@ -2,3 +2,8 @@
 
 @import "../node_modules/startbootstrap-clean-blog/vendor/bootstrap/css/bootstrap.min.css";
 @import "../node_modules/startbootstrap-clean-blog/css/clean-blog.min.css";
+
+img {
+    max-width: 100%;
+    height: auto;
+}

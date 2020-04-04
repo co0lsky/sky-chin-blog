@@ -57,7 +57,7 @@ In Flutter, everything is a widget, which is similar to the component in React N
 
 `MyApp` class renders `HelloWorld` widget on the body with Material theme.
 
-![](/assets/images/1_T0IkXNvQETuDRz04psxVmw.png)
+![](/images/1_T0IkXNvQETuDRz04psxVmw.png)
 
 How about making a `ListView`?
 
@@ -77,7 +77,7 @@ class HelloWorldList extends StatelessWidget {
 }
 ~~~
 
-![](/assets/images/1_OuE4iae3oluZyjN3-k6qzg.png)
+![](/images/1_OuE4iae3oluZyjN3-k6qzg.png)
 
 Simple, huh?
 
@@ -95,7 +95,7 @@ The second problem is the plugin compatibility. I was installing this plugin, [f
 
 I’m not alone having the same problem.
 
-![](/assets/images/1_TEjiYeWZD24Lr08Bb36-rA.png)
+![](/images/1_TEjiYeWZD24Lr08Bb36-rA.png)
 
 The problem is solved by adding a few lines in the Podfile. I hope this solution helps you too.
 

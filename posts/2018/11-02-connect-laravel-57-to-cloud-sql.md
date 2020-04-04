@@ -38,27 +38,27 @@ First of all, create a new instance of CSQL (Cloud SQL).
 1. Login to your [GCP console](http://console.cloud.google.com).
 2. Search `sql` from the search bar.
 
-![](/assets/images/1_y9ciPlJUYy71FyN7OSUo-w.png)
+![](/images/1_y9ciPlJUYy71FyN7OSUo-w.png)
 
 3. Click on the CREATE INSTANCE button.
 
-![](/assets/images/1_o95RbajfUsY8v9Zv0Vjazg.png)
+![](/images/1_o95RbajfUsY8v9Zv0Vjazg.png)
 
 4. Select MySQL.
 
-![](/assets/images/1_bW8r74Iq5Aah_TYOIxXMwQ.png)
+![](/images/1_bW8r74Iq5Aah_TYOIxXMwQ.png)
 
 5. Choose the second generation.
 
-![](/assets/images/1_NxxQt0Y6PIMx9mv6NrR3fg.png)
+![](/images/1_NxxQt0Y6PIMx9mv6NrR3fg.png)
 
 6. Fill up all the field then click the Create button.
 
-![](/assets/images/1_h2irJLhLftpjH52VkrGuFA.png)
+![](/images/1_h2irJLhLftpjH52VkrGuFA.png)
 
 There you go! You have created a new instance of CSQL.
 
-![](/assets/images/1_iXR_4bqsmX3LyAdU3_umQw.png)
+![](/images/1_iXR_4bqsmX3LyAdU3_umQw.png)
 
 # Create a new database
 
@@ -168,7 +168,7 @@ $ gcloud app deploy
 
 Tada!
 
-![](/assets/images/1_vPBWUimSQE21aSiGPfnuPQ.png)
+![](/images/1_vPBWUimSQE21aSiGPfnuPQ.png)
 
 Using root user in the production environment is not recommended, don’t mention about the simple password I set previously. Let’s change the root user's password and create a new user for your Laravel application.
 
@@ -178,15 +178,15 @@ You can manage your MySQL user accounts from GCP console.
 
 1. From the console, select your instance then switch to USERS tab.
 
-![](/assets/images/1_PIQ5FLRL9tesAFMcnwc4pw.png)
+![](/images/1_PIQ5FLRL9tesAFMcnwc4pw.png)
 
 2. Create a new user named laravel and set a complex password.
 
-![](/assets/images/1_Hqgw-jf0Di7KC_-AidZXcg.png)
+![](/images/1_Hqgw-jf0Di7KC_-AidZXcg.png)
 
 3. After creating the user, you change the password of the root user account.
 
-![](/assets/images/1_aRWeW6jivKVp6NNGT2Qmqw.png)
+![](/images/1_aRWeW6jivKVp6NNGT2Qmqw.png)
 
 4. Then, update the `app.yaml` with the new credentials.
 
@@ -207,7 +207,7 @@ $ gcloud app deploy
 
 Your Laravel application on GAE should work the same as previous.
 
-![](/assets/images/1_vPBWUimSQE21aSiGPfnuPQ.png)
+![](/images/1_vPBWUimSQE21aSiGPfnuPQ.png)
 
 Now, your Laravel 5.7 application is connected to the GSQL.
 

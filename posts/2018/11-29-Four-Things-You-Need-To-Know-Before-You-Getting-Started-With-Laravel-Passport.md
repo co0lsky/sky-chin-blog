@@ -56,11 +56,11 @@ You can set the Bearer token in Postman
 
 1. From the Authorization tab
 
-![](/assets/images/1_X5AvTqLb52LCKtyIFvRpEA.png)
+![](/images/1_X5AvTqLb52LCKtyIFvRpEA.png)
 
 2. Set it manually from Headers tab
 
-![](/assets/images/1_96KEGJMCFwDvH9_iSItCjw.png)
+![](/images/1_96KEGJMCFwDvH9_iSItCjw.png)
 
 # Protect other user information with middleware
 
@@ -184,7 +184,7 @@ Route::get('/', function () {
 
 Once your application is up, you should see the page as below.
 
-![](/assets/images/1_TN4jVdG3Lkp4khrNG-ofaQ.png)
+![](/images/1_TN4jVdG3Lkp4khrNG-ofaQ.png)
 
 The JSON API is required a logged in user. If you just want to test, this is a quick hack by logging in a user manually.
 

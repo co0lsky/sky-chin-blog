@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title><%= assigns[:page_title] || "Sky Chin" %></title>
+    <title><%= assigns[:title] || "Sky Chin" %></title>
     <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
 
     <!-- Custom fonts for this template -->
@@ -39,15 +39,22 @@
           </div>
       </div>
     </nav>
-    <header class="masthead" style="background-image: url('/images/1_apXhEl5f3wwTKH4fQYMExA.jpeg')">
+    <header class="masthead" style="background-image: url('/images/<%= assigns[:feature_image] || "1_apXhEl5f3wwTKH4fQYMExA.jpeg" %>')">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
+                    <%= if assigns[:title] do %>
+                    <div class="post-heading">
+                        <h1><%= assigns[:title] %></h1>
+                        <%# <span class="subheading">Laravel Artisan</span> %>
+                    </div>
+                    <% else %>
                     <div class="site-heading">
                         <h1>Sky Chin</h1>
                         <span class="subheading">Laravel Artisan</span>
                     </div>
+                    <% end %>
                 </div>
             </div>
         </div>

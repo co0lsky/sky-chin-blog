@@ -6,6 +6,10 @@ defmodule BlogWeb.PageController do
   end
 
   def post(conn, %{"id" => id}) do
-    render(conn, "post.html", post: Blog.Blog.find_post(id))
+    # Find post from memory by id
+    post = Blog.Blog.find_post(id)
+
+    # Render with post meta information
+    render(conn, "post.html", post: post, feature_image: post.featureimage, title: post.title)
   end
 end
